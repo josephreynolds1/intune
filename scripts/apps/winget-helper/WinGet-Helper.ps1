@@ -14,9 +14,9 @@ param(
 $ScriptName = "WinGet Helper"
 $ScriptVersion = "1.0"
 $ScriptDate = "07/20/2025"
-$ScriptAuthor = "jreynolds@torreontek.com"
+$ScriptAuthor = "name@company.com"
 $LogDate = Get-Date -Format MMddyyyy-HHmmss
-$LogPath = "$env:ProgramData\TorreonTek\Logs"
+$LogPath = "$env:ProgramData\Company\Logs"
 $LogFile = "winget_$($App)_$($Action).log"
 
 if (Test-Path -Path "$($LogPath)"){
