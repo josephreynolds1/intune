@@ -48,6 +48,7 @@ if ($SystemAccount -eq $true) {
         Write-Host "WinGet path: $($WingetPath)"
     } else {
         Write-Host "Unable to determine WinGet SYSTEM context path!"
+	exit 8888
     }
 } else {
     $GetWinGetPathUser = Get-Command winget.exe -ErrorAction SilentlyContinue
